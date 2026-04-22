@@ -44,3 +44,6 @@ The baseline cryptographic handshake is fully functional. The Python uplink succ
 [*] Gatekeeper: Verifying ECDSA Signature against raw ciphertext...
 [+] SUCCESS: Cryptographic signature validated.
 [+] Gatekeeper passed. Proceeding to AES-256 decryption engine...
+```
+
+![Baseline Handshake](https://raw.githubusercontent.com/ctarique/orbitsec/main/docs/baseline_handshake.png)
