@@ -29,8 +29,9 @@ The architecture is designed to mitigate high-priority threats identified in our
 * **Information Disclosure**: Secured via AES-256-CBC encryption.
 
 ### Academic Context
-* **Course:** CY 510 - Information Security and Assurance
+* **Course:** CY510-01: Information Security and Assurance
 * **Institution:** Southeast Missouri State University
+  **Instructor:** Dr. George Li
 * **Group:** 404: Group Not Found
 * **Team Members:** Tarique Chowdhury (Lead), Cali Facio, Hayden Blue, Jordan Duenas, LaBrea Franklin, Tinotenda Mukumba.
 
