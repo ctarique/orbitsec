@@ -61,3 +61,6 @@ firmware/.DS_Store
 
 data/*.bin
 data/*.pem
+
+.DS_Store
+firmware/ .DS_Store
