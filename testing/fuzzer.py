@@ -8,7 +8,7 @@ def generate_packet(filename, magic, payload_len, sig_len, iv, ciphertext, signa
     """
     try:
         # '>4sHH16s' = Big-endian, 4-byte string, 2 unsigned shorts, 16-byte string (IV)
-        header = struct.pack('>4sHH16s', magic, payload_len, sig_len, iv)
+        header = struct.pack('<4sHH16s', magic, payload_len, sig_len, iv)
         packet = header + ciphertext + signature
         
         with open(filename, 'wb') as f:
